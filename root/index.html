@@ -1,0 +1,171 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MOA COFFEE</title>
+	<link rel="stylesheet" href="css/theme1.min.css" />
+	<link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<style>
+		h1,
+		h2,
+		h3,
+		p {
+			text-align: center;
+		}
+
+		a {
+			text-decoration: none;
+		}
+
+		.popup {
+			margin: 10px;
+		}
+
+		.conInfo a {
+			color: #fff;
+		}
+
+		.footer {
+			font-size: 9px;
+		}
+
+		.icons {
+			text-align: center;
+		}
+
+		.icons i {
+			padding: 0 5px 0 5px;
+			color: #fff;
+		}
+
+		.icons i:hover {
+			color: #aaa;
+		}
+
+		#dialog {
+			background-color: #57a8a8 !important;
+		}
+	</style>
+</head>
+
+<body>
+	<!-- Start of first page -->
+	<div data-role="page" data-theme="c" id="home">
+		<div data-role="header" data-position="inline" class="header">
+			<h1>MOA COFFEE</h1>
+		</div><!-- /header -->
+
+		<div data-role="navbar">
+			<ul>
+				<li><a href="index.html" data-icon="home" rel="external" data-ajax="false" data-transition="pop"
+						class="ui-btn-active">HOME</a></li>
+				<li><a href="shop.html" data-icon="shop" rel="external" data-ajax="false" data-transition="pop">SHOP</a>
+				</li>
+				<li><a href="contact.html" data-icon="star" rel="external" data-ajax="false"
+						data-transition="pop">CONTACT</a></li>
+			</ul>
+		</div><!-- /navbar -->
+
+		<div data-role="content" class="ui-content">
+			<h3> WELCOME TO MOA COFEE </h3>
+			<div data-role="content" class="ui-body ui-body-a ui-corner-all" data-theme="c">
+				<h2>Hello Everyone!</h2>
+				<p>
+					we roast coffee. Craft of coffee roasting is what we know best. We demand the same levels of
+					commitment to know-how from all of the people we work with. The result of this mutual understanding
+					is a full-flavoured, balanced, and easily recognizable taste of our coffees. We source and buy green
+					coffees directly from farmers.
+				</p>
+			</div>
+			<p>FREE SHIPPING on all coffee orders over $30</p>
+			<div data-role="content" class="ui-content" style="text-align: center;">
+				<a href="#dialog" data-transition="pop"><img class="popphoto" src="images/about.jpg" alt="photo"
+						style="width:30%"></a>
+				<a href="shop.html" rel="external" data-ajax="false" data-position-to="window"
+					data-transition="fade"><img src="images/coffeebox.jpg" alt="photo" style="width:30%"></a>
+				<a href="contact.html" rel="external" data-ajax="false" data-position-to="window"
+					data-transition="fade"><img class="popphoto" src="images/contact1.jpg" alt="photo"
+						style="width:30%"></a>
+			</div>
+			<br>
+			<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-mini="true"
+				data-iconpos="right">
+				    <h4>Customer Testimonials</h4>
+				    <ul data-role="listview" data-inset="false">
+					        <li><img src="images/icon1.png" alt="pic1" width="50" height="50" style="padding: 0 20px;">
+						<p>“Your coffee hits the spot every time. Thank you for the experience of pure, delicious coffee
+							masterfully roasted! I will never purchase any other and I will spread the word!”- Fran
+						</p>
+					</li>
+					<li><img src="images/icon1.png" alt="pic1" width="50" height="50" style="padding: 20px 0 0 20px;">
+						<p style="padding-top: 15px;">“My favorite espresso. Anyone who enjoys a good espresso
+							should
+							definitely order their
+							espresso!! And its clean, like all their coffee; no added poisons. Can't beat that.
+							Enjoy!”
+							- Pam</p>
+					</li>
+					<li><img src="images/icon1.png" alt="pic1" width="50" height="50" style="padding: 20px 0 0 20px;">
+						<p style="padding-top: 15px;">"I am an office hero for getting good coffee in and the brewer
+							makes great coffee.  Thanks for all of your work!” -Michelle
+						</p>
+					</li>
+				</ul>
+			</div><!-- /listview -->
+
+			<div class="conInfo">
+				<P>Adress: 3550 Lebon Dirve San Diego, CA 92122</P>
+				<p>Phone: (123) 456-7890</p>
+				<a href="mailto:takhyunsuk@gmail.com" target="_blank">
+					<p>Email: takhyunsuk@gmail</p>
+				</a>
+			</div>
+			<div class="icons">
+				<a href="https://twitter.com/" target="_blank">
+					<i class="fab fa-twitter"></i>
+				</a>
+				<a href="https://www.facebook.com/" target="_blank">
+					<i class=" fab fa-facebook-f"></i>
+				</a>
+				<a href="https://www.linkedin.com/" target="_blank">
+					<i class=" fab fa-linkedin-in"></i>
+				</a>
+				<a href="https://www.instagram.com/" target="_blank">
+					<i class=" fab fa-instagram"></i>
+				</a>
+			</div>
+		</div><!-- /content -->
+
+		<div data-role="footer" data-position="fixed" class="footer">
+			<h4>&copy; 2020 MOA COFFEE</h4>
+		</div><!-- /footer -->
+	</div><!-- /page -->
+
+	<!-- About dialog -->
+	<div data-role="page" data-dialog="true" id="dialog">
+		<div data-role="header">
+		</div><!-- /header -->
+		<div data-role="content">
+			<h1>About Us</h1>
+			<p>We believe coffee in all its forms—whole bean, brewed, and espresso—should be an approachable, accessible
+				luxury. Our goal is to make our coffee a memorable addition to any experience, and to make the act of
+				preparing and enjoying a cup of our coffee an experience in and of itself.
+				The pursuit of exceptional coffee is a lifelong journey of discovery and delight. Whether in one of our
+				coffeebars, at home, or at your favorite restaurant or café, we hope you’ll join us for your next cup.
+			</p>
+			<a href="docs-index.html" data-role="button" data-rel="back">Sounds good</a>
+			<a href="docs-dialogs.html" data-role="button" data-rel="back">Cancel</a>
+		</div><!-- / dialog content -->
+
+		<div data-role="footer">
+			<h4>&copy; 2020 MOA COFFEE</h4>
+		</div><!-- /dialog  footer -->
+	</div><!-- /dialog page -->
+</body>
+
+</html>
