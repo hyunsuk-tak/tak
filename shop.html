@@ -1,0 +1,275 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MOA COFFEE</title>
+    <link rel="stylesheet" href="css/theme1.min.css" />
+    <link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <style>
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        .icons {
+            text-align: center;
+        }
+
+        .icons i {
+            padding: 10px;
+            color: #fff;
+        }
+
+        .icons i:hover {
+            color: #aaa;
+        }
+
+
+        .footer {
+            font-size: 10px;
+        }
+
+        .pop {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Start of second page -->
+    <div data-role="page" data-theme="c" id="shop">
+        <div data-role="header" data-position="fixed">
+            <h1>MOA COFFEE</h1>
+        </div><!-- /header -->
+
+        <div data-role="navbar">
+            <ul>
+                <li><a href="index.html" data-icon="home" rel="external" data-ajax="false" data-transition="pop"
+                        class="ui-btn-active">HOME</a></li>
+                <li><a href="shop.html" data-icon="shop" rel="external" data-ajax="false" data-transition="pop">SHOP</a>
+                </li>
+                <li><a href="contact.html" data-icon="star" rel="external" data-ajax="false"
+                        data-transition="pop">CONTACT</a></li>
+            </ul>
+        </div><!-- /navbar -->
+
+        <div data-role="content" class="ui-content" data-theme="c">
+            <img src="images/shop1.png" alt="shop">
+            <p>FREE SHIPPING on all coffee orders over $30</p>
+            <p><a href="index.html" rel="external" data-ajax="false">Back to Home</a> <a href="#popupBasic"
+                    data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-mini"
+                    data-transition="pop">Check Events</a>
+            <div data-role="popup" id="popupBasic">
+                <p>10% Discount and FREE shipping on your first order </p>
+            </div>
+            </p>
+
+            <ul data-role="listview" data-autodividers="true" data-filter="true">
+                <li><a href="#pop1" data-rel="popup" data-position-to="window" data-transition="pop">Dark Roast -
+                        French
+                        Roast</a>
+                </li>
+                <li><a href="#pop2" data-rel="popup" data-position-to="window" data-transition="pop">Dark Roast -
+                        Java</a>
+                </li>
+                <li><a href="#pop3" data-rel="popup" data-position-to="window" data-transition="pop">Dark Roast -
+                        House
+                        Blend</a>
+                </li>
+                <li><a href="#pop4" data-rel="popup" data-position-to="window" data-transition="pop">Medium
+                        Roast - Brazilia</a></li>
+                <li><a href="#pop5" data-rel="popup" data-position-to="window" data-transition="pop">Medium Roast -
+                        Ethiopia</a>
+                </li>
+                <li><a href="#pop6" data-rel="popup" data-position-to="window" data-transition="pop">Medium Roast -
+                        Sumatra</a>
+                </li>
+                <li><a href="#pop7" data-rel="popup" data-position-to="window" data-transition="pop">Medium Roast -
+                        Espresso Blend</a>
+                </li>
+
+                <li><a href="#pop8" data-rel="popup" data-position-to="window" data-transition="pop">Specialty
+                        Coffee -
+                        Coastal Coffee Supreme
+                    </a>
+                </li>
+                <li><a href="#pop9" data-rel="popup" data-position-to="window" data-transition="pop">Specialty
+                        Coffee -
+                        Jamaica Blue Mountain
+                    </a>
+                </li>
+            </ul><!-- /listview -->
+        </div><!-- /content -->
+
+        <div class="icons">
+            <a href="https://twitter.com/" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <i class=" fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank">
+                <i class=" fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <i class=" fab fa-instagram"></i>
+            </a>
+        </div><!-- /social content -->
+
+        <div data-role="footer" data-position="fixed" class="footer">
+            <h4>&copy; 2020 MOA COFFEE</h4>
+        </div><!-- /footer -->
+
+        <!-- /Start of popup content -->
+        <div data-role="popup" id="pop1" data-dismissible="false" style="max-width:400px;">
+                <div class="pop">
+                    <h1>French Roast</h1>
+                     <p>To brew French Roast is a commitment to a rich, powerful taste, pronounced smoky overtones,
+                    and
+                    pleasant bite.</p>
+                <p>Price: $15</p>
+                  <p>16 oz. package</p>
+                    <div data-role="content">
+                        <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b"
+                        data-rel="back">Cancel</a>
+                            <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back"
+                        data-transition="flow">Delete</a>
+                        </div>
+            </div>
+        </div>
+        <div data-role="popup" id="pop2" data-dismissible="false" style="max-width:400px;">
+                <div class="pop">
+                    <h1>Java</h1>
+                     <p> Full-bodied, with bittersweet chocolate overtones enhancing a rich complexity.</p> 
+                <p>Price: $15</p>
+                  <p>16 oz. package</p>
+                    <div data-role="content">
+                        <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b"
+                        data-rel="back">Cancel</a>
+                            <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back"
+                        data-transition="flow">Delete</a>
+                        </div>
+            </div>
+        </div>
+        <div data-role="popup" id="pop3" data-dismissible="false" style="max-width:400px;">
+                <div class="pop">
+                    <h1>House Blend</h1>
+                     <p>A perennial customer favorite, this inviting Latin American blend is a perfect introduction
+                    to
+                    MOA COFFEE.</p>
+                <p>Price: $15</p>
+                <p>16 oz. package</p>
+                    <div data-role="content">
+                        <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b"
+                        data-rel="back">Cancel</a>
+                            <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back"
+                        data-transition="flow">Delete</a>
+                        </div>
+            </div>
+        </div>
+        <div data-role="popup" id="pop4" data-dismissible="false" style="max-width:400px;">
+                <div class="pop">
+                    <h1>Brazilia</h1>
+                     <p>A rich vibrant coffee anchored with a deep full-bodied earthy flavor and lots of fruity
+                    high notes. </p> 
+                <p>Price: $15</p>
+                 <p>16 oz. package</p>
+                    <div data-role="content">
+                        <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b"
+                        data-rel="back">Cancel</a>
+                            <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back"
+                        data-transition="flow">Delete</a>
+                        </div>
+            </div>
+        </div>
+        <div data-role="popup" id="pop5" data-dismissible="false" style="max-width:400px;">
+                <div class="pop">
+                    <h1>Ethiopia</h1>
+                     <p>A distinctive coffee from Ethiopia that displays floral and citrus aromas and tastes.</p> 
+                <p>Price: $15</p>
+                 <p>16 oz. package</p>
+                    <div data-role="content">
+                        <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b"
+                        data-rel="back">Cancel</a>
+                            <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back"
+                        data-transition="flow">Delete</a>
+                        </div>
+            </div>
+        </div>
+        <div data-role="popup" id="pop6" data-dismissible="false" style="max-width:400px;">
+                <div class="pop">
+                    <h1>Sumatra</h1>
+                     <p>Deep and pungently spicy aroma with papaya and chocolate notes. </p> 
+                <p>Price: $15</p>
+                 <p>16 oz. package</p>
+                    <div data-role="content">
+                        <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b"
+                        data-rel="back">Cancel</a>
+                            <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back"
+                        data-transition="flow">Delete</a>
+                        </div>
+            </div>
+        </div>
+        <div data-role="popup" id="pop7" data-dismissible="false" style="max-width:400px;">
+                <div class="pop">
+                    <h1>Espresso Blend</h1>
+                     <p>Robust, with rounded body, thick, creamy consistency and a tangy core of flavor.</p> 
+                <p>Price: $15</p>
+                 <p>16 oz. package</p>
+                    <div data-role="content">
+                        <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b"
+                        data-rel="back">Cancel</a>
+                            <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back"
+                        data-transition="flow">Delete</a>
+                        </div>
+            </div>
+        </div>
+        <div data-role="popup" id="pop8" data-dismissible="false" style="max-width:400px;">
+                <div class="pop">
+                    <h1>Coastal Coffee Supreme</h1>
+                     <p> Inspired by our customers, this is a blend of our best coffee from Guatemala and Colombia.
+                </p>
+                <p>Price: $16</p>
+                 <p>16 oz. package</p>
+                    <div data-role="content">
+                        <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b"
+                        data-rel="back">Cancel</a>
+                            <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back"
+                        data-transition="flow">Delete</a>
+                        </div>
+            </div>
+        </div>
+        <div data-role="popup" id="pop9" data-dismissible="false" style="max-width:400px;">
+                <div class="pop">
+                    <h1>Jamaica Blue Mountain</h1>
+                     <p>Jamaica Blue Mountain Estate Coffee has a full body that is well-balanced; it delivers
+                    subtle
+                    acidity and a smooth chocolate finish leaving not a single trace of bitterness.</p>
+                <p>Price: $16</p>
+                 <p>16 oz. package</p>
+                    <div data-role="content">
+                        <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b"
+                        data-rel="back">Cancel</a>
+                            <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back"
+                        data-transition="flow">Delete</a>
+                        </div>
+            </div>
+        </div><!-- /popup content -->
+
+    </div><!-- /page -->
+</body>
+
+</html>
