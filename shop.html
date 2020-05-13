@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -21,6 +22,10 @@
         }
 
         p {
+            text-align: center;
+        }
+
+        .btn {
             text-align: center;
         }
 
@@ -69,13 +74,13 @@
         <div data-role="content" class="ui-content" data-theme="c">
             <img src="images/shop1.png" alt="shop">
             <p>FREE SHIPPING on all coffee orders over $30</p>
-            <p><a href="index.html" rel="external" data-ajax="false">Back to Home</a> <a href="#popupBasic"
-                    data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-mini"
+            <div class="btn"><a href="index.html" rel="external" data-ajax="false">Back to Home</a> <a
+                    href="#popupBasic" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-mini"
                     data-transition="pop">Check Events</a>
-            <div data-role="popup" id="popupBasic">
-                <p>10% Discount and FREE shipping on your first order </p>
+                <div data-role="popup" id="popupBasic">
+                    <p>10% Discount and FREE shipping on your first order </p>
+                </div>
             </div>
-            </p>
 
             <ul data-role="listview" data-autodividers="true" data-filter="true">
                 <li><a href="#pop1" data-rel="popup" data-position-to="window" data-transition="pop">Dark Roast -
